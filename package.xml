@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rc_genicam_camera_interfaces</name>
+  <version>1.3.0</version>
+  <description>
+    The rc_genicam_camera_interfaces provides message and service interfaces for rc_genicam_camera package
+  </description>
+
+  <maintainer email="felix.ruess@roboception.de">Felix Ruess</maintainer>
+  <maintainer email="heiko.hirschmueller@roboception.de">Heiko Hirschmueller</maintainer>
+  <license>BSD</license>
+
+  <author email="heiko.hirschmueller@roboception.de">Heiko Hirschmueller</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
